@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Vestel Remote</string>
+    <string name="tv_ip_default">192.168.1.2</string>
+    <string name="settings">Настройки</string>
+    <string name="search_tv">Поиск ТВ</string>
+    <string name="connecting">Подключение…</string>
+    <string name="connected">Подключено</string>
+    <string name="offline">ТВ не отвечает</string>
+</resources>

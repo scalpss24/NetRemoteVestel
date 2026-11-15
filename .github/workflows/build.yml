@@ -13,6 +13,12 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: Unpack project if zipped
+        run: |
+          if [ -f "vestel-remote.zip" ]; then
+            unzip -o vestel-remote.zip
+          fi
+
       - name: Set up JDK 17
         uses: actions/setup-java@v4
         with:
